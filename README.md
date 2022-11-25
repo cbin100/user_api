@@ -8,8 +8,11 @@ Please find here a Composer package that provides a service for retrieving users
 https://reqres.in/.
 
 ## Background
+
 ● This is a very simple packacge that can be added to your Laravel project and will consume the API from https://reqres.in/.
+
 ● I have expanded the response in return by adding 3 attributes: response, status and code
+
 ● This package can also be used in auther projects such as CodeIgniter, Drupal, Symfony, CakePHP, etc... For that, simple use the 2 classes User.php and BaseController.php and expand them.
 
 ● Due to the instabilities of the APIs, I've used caching systems with Redis. This is someting the requested server might be unavaible the URLs have changed. So with this package, no need to request the API, we just need to get data from local cache. With caches, the speed is improved.
