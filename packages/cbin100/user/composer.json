@@ -1,0 +1,22 @@
+{
+    "name": "cbin100/user",
+    "description": "Consuming User API from https://reqres.in",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Watchiba J",
+            "email": "charlesjas..."
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Cbin100\\User\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0.1",
+        "predis/predis": "^2.0"
+    }
+}
